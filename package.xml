@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>vhacd_visualizer</name>
+  <version>0.0.0</version>
+  <description>Interactively visualize convex decompositions of your OBJ files</description>
+  <maintainer email="cranston.daniel@gmail.com">Daniel</maintainer>
+  <license>MIT</license>
+
+  <!-- trimesh isn't a required dependency -->
+  <!-- <exec_depend>python3-trimesh-pip</exec_depend> -->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
